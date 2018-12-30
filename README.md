@@ -1,4 +1,4 @@
-# Install Windows Subsystem for Linux 
+## Install Windows Subsystem for Linux 
 following https://docs.microsoft.com/en-us/windows/wsl/install-win10
 
 ### Check version
@@ -28,3 +28,19 @@ pip3 install jupyter
 ### Run jupyter
 jupyter-notebook
 
+## Install spinningup on Windows Subsystem for Linux
+
+### Installing OpenMPI
+sudo apt-get update && sudo apt-get install libopenmpi-dev
+
+### Create virtualenv
+python3 -m virtualenv spinningup
+
+### Create projects folder
+mkdir projects
+cd projects
+
+### Installing Spinning Up
+git clone https://github.com/openai/spinningup.git
+cd spinningup
+pip install -e .
