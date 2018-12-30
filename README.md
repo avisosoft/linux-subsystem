@@ -37,10 +37,14 @@ sudo apt-get update && sudo apt-get install libopenmpi-dev
 python3 -m virtualenv spinningup
 
 ### Create projects folder
+```
 mkdir projects
 cd projects
+```
 
 ### Installing Spinning Up
+```
 git clone https://github.com/openai/spinningup.git
 cd spinningup
 pip install -e .
+```
