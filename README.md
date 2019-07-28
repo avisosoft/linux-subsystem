@@ -52,6 +52,10 @@ python3 -m virtualenv spinningup
 mkdir projects
 cd projects
 ```
+### Select windows folder
+```
+cd /mnt/d/Projects/mytest
+```
 ### Installing Spinning Up
 ```
 git clone https://github.com/openai/spinningup.git
